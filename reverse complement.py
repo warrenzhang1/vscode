@@ -26,4 +26,5 @@ for i in range(length_list) :
     
    
 reverse_sequence.reverse()
+print('')
 print(''.join(reverse_sequence))
