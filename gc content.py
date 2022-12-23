@@ -34,7 +34,6 @@ print(dna_gc_count)
 for key, value in dna_gc_count.items() :
     highest_average = 0
     key_name = str(key)
-    highest_average = dna_gc_count[key]
     if highest_average <= dna_gc_count[key] :
         highest_average = dna_gc_count[key]
         key_name = key
