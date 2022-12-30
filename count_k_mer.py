@@ -1,4 +1,4 @@
-from frequent_words import frequent
+from functions.frequent_words import frequent
 user_text = input('What is your text?')
 user_k = int(input('How many k-mers?'))
 user_dict = frequent(user_text, user_k)

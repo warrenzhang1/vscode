@@ -9,7 +9,7 @@
 
 #print(dna_dictionary)
 #Dna dictionary function
-from dna_dictionary import dna_repository 
+from functions.dna_dictionary import dna_repository 
 dna_sequence = []
 dna_sequence_name = ''
 dna_dictionary = dna_repository( dna_sequence_name, dna_sequence)
